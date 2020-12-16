@@ -124,5 +124,6 @@ Finally the scheduled run
 
 
 ## Screen Recording
-The Recording and details can be viewed here [link to Udacity Project 2 Recording]: https://youtu.be/Ajm_u9C-blc
+The Recording and details can be viewed here [link to Udacity Project 2 Recording].
 
+[link to Udacity Project 2 Recording]: https://youtu.be/Ajm_u9C-blc

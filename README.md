@@ -15,10 +15,10 @@
 
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/Az%20help.PNG)
 
-Authenticate and Logged via az command on gitbash
+                                  Authenticate and Logged via az command on gitbash                                 
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/az%20login.PNG) 
 
-Verified that extension is added
+                                     Verified that extension is added                     
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/add%20extension.PNG) 
 
 2. Dataset has been registered on ML Studio

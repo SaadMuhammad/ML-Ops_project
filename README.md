@@ -61,15 +61,27 @@ after applying 'logs.py' on terminal we set the app insights to true as shown be
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/app-insights-True.PNG) 
 
 4.swagger.json was downloaded from the Azure ML Studio. Swagger is used to interact with the HTTP REST API endpoint documentation. 'swagger.sh' will download the latest Swagger container, and it will run it on our specified port. 'serve.py' will start a Python server on port specified
--swagger1
--swagger2
--swagger3
--servepy1
--swagger-9000
--swagger-get1
--swagger-local
--swagger-post
--swagger-post1
+
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger1.PNG) 
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger2.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger3.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/servepy1.PNG) 
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger-9000.PNG) 
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger-get1.PNG) 
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger-local.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger-post.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger-post1.PNG)
+
+
 
 5. After model is deployed, used the updated 'endpoint.py' script to interact with the trained model. A 'data.json' file is created as response to HTTP REST API endpoint
 -endpoint1

@@ -43,13 +43,22 @@ best model other metrics details are as follows
 
 3. application insights were not set to true during deployment, as shown below
 -app-insights-false
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/app-insights-false.PNG) 
+
 appling logs.py to set the application insights to true
--logs-py1
--logs-py2
--logs-py3
--logs-py4
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/logs-py1.PNG) 
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/logs-py2.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/logs-py3.PNG) 
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/logs-py4.PNG)
+
 after applying 'logs.py' on terminal we set the app insights to true as shown below
--app-insights-true
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/app-insights-True.PNG) 
 
 4.swagger.json was downloaded from the Azure ML Studio. Swagger is used to interact with the HTTP REST API endpoint documentation. 'swagger.sh' will download the latest Swagger container, and it will run it on our specified port. 'serve.py' will start a Python server on port specified
 -swagger1

@@ -10,11 +10,14 @@
 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+
 1. (Optional Part) Verified that az is enabled in terminal and performed az login via gitbash. Installed the Azure ML extension. Didn't work on creating 'Service Principle' since all the work has been done in labs. Few steps  performed for this part are shown below
 -Az help
+![Screenshot](Az help.png)
 -az login
+![Screenshot](az login.png) 
 -add extension
+![Screenshot](add extension.png) 
 
 2. Dataset has been registered on ML Studio
 -dataset scn

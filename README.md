@@ -124,7 +124,5 @@ Finally the scheduled run
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-in progress
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+The Recording and details can be viewed here [link to Udacity Project 2 Recording]: https://youtu.be/Ajm_u9C-blc
+

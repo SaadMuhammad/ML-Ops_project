@@ -13,6 +13,7 @@
 
 1. (Optional Part) Verified that az is enabled in terminal and performed az login via gitbash. Installed the Azure ML extension. Didn't work on creating 'Service Principle' since all the work has been done in labs. Few steps  performed for this part are shown below
 
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/Az%20help.PNG)
 
 ![Screenshot](Az help.PNG)
 

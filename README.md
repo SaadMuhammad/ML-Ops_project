@@ -60,7 +60,7 @@ after applying 'logs.py' on terminal we set the app insights to true as shown be
 
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/app-insights-True.PNG) 
 
-4.swagger.json was downloaded from the Azure ML Studio. Swagger is used to interact with the HTTP REST API endpoint documentation. 'swagger.sh' will download the latest Swagger container, and it will run it on our specified port. 'serve.py' will start a Python server on port specified
+4. 'swagger.json' was downloaded from the Azure ML Studio. Swagger is used to interact with the HTTP REST API endpoint documentation. 'swagger.sh' will download the latest Swagger container, and it will run it on our specified port. 'serve.py' will start a Python server on port specified
 
 
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/swagger1.PNG) 
@@ -84,25 +84,44 @@ after applying 'logs.py' on terminal we set the app insights to true as shown be
 
 
 5. After model is deployed, used the updated 'endpoint.py' script to interact with the trained model. A 'data.json' file is created as response to HTTP REST API endpoint
--endpoint1
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/endpoint1.PNG)
+
 Apache Benchmarking is used to benchmark the deployed model, following is the output
--benchmarksh1
--benchmarksh2
--benchmarksh3
--benchmarksh4
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/benchmarksh1.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/benchmarksh2.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/benchmarksh3.PNG)
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/benchmarksh4.PNG)
+
 
 6. Now we will perform all the above steps on Jupyter using Python SDK as a pipeline.
--pipelinerun-sdk
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/pipelinerun-sdk.PNG)
+
 endpoint creation via the pipeline process
--pipeline endpoint
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/pipeline-endpoint.PNG)
+
 run in progress
--pipelinerun-studio
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/pipelinerun-studio.PNG)
+
 Published pipeline overview
--rest-pipeline
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/rest-pipeline.PNG)
+
 Use Rundetails widget
--pipelinerun-completewidget
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/pipelinerun-completewidget.PNG)
+
 Finally the scheduled run
--pipeline-submit2
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/pipeline%20submit2.PNG)
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:

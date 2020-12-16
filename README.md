@@ -15,22 +15,31 @@
 
 ![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/Az%20help.PNG)
 
-![Screenshot](Az help.PNG)
+Authenticate and Logged via az command on gitbash
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/az%20login.PNG) 
 
-![Screenshot](az login.PNG) 
-
-![Screenshot](add extension.PNG) 
+Verified that extension is added
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/add%20extension.PNG) 
 
 2. Dataset has been registered on ML Studio
--dataset scn
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/dataset%20scn.PNG) 
+
 Auto Ml experiment has been completed
--automl-run1
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/Automl-run1.PNG) 
+
 best model is voting ensemble having accuracy of 0.91927
--automl-run
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/Automl-run.PNG) 
+
 showung run of different models and their performance
--best-model
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/best-model.PNG) 
+
 best model other metrics details are as follows
--best-model1
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/best-model1.PNG) 
 
 3. application insights were not set to true during deployment, as shown below
 -app-insights-false

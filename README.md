@@ -2,7 +2,7 @@
 
 # Operationalizing Machine Learning - Project 2
 
-*TODO:* Write an overview to your project.
+
 This Project involves Installing of Azure Machine Learning Extension and create Service Principle (SP).Then we will create and complete experiment using Automated ML run using the Bank Marketing Dataset which is registered on the Azure ML Studio. It is then Deployed using Azure Container Instance (ACI) which will allow to interact with the HTTP API service, Published and consumed using Swagger. Then the endpoint is benchmarked using Apache benchmarking.
 
 In the Second part we employed Pyhton SDK via Jupyter notebook to create, consume and publish a pipeline
@@ -10,7 +10,10 @@ In the Second part we employed Pyhton SDK via Jupyter notebook to create, consum
 The Dataset is a binary classification problem consist of 20 features with 32,950 instances 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+This diagram involves following actions: installing Azure ML extension and creating service principle (this step is optional for the current project but it is a neccesary task performed when interatcing with Azure ML). Then we register the dataset provided to us, create compute cluster with specified information, now we use AutoML to find the best model for our dataset, after fnding the best model we will deploy it via ACI and enable application insights vis logs.py. Now we use swagger to interact with model. Then we consume the model via endpoints.py and finally used Apache Benchmark to becnhmark the deployed model.
+
+![Screenshot](https://github.com/SaadMuhammad/ML-Ops_project/blob/main/Snapshots/Arch-Diag.PNG)
 
 
 ## Key Steps

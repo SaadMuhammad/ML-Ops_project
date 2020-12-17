@@ -1,9 +1,13 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 
 # Operationalizing Machine Learning - Project 2
 
 *TODO:* Write an overview to your project.
+This Project involves Installing of Azure Machine Learning Extension and create Service Principle (SP).Then we will create and complete experiment using Automated ML run using the Bank Marketing Dataset which is registered on the Azure ML Studio. It is then Deployed using Azure Container Instance (ACI) which will allow to interact with the HTTP API service, Published and consumed using Swagger. Then the endpoint is benchmarked using Apache benchmarking.
+
+In the Second part we employed Pyhton SDK via Jupyter notebook to create, consume and publish a pipeline
+
+The Dataset is a binary classification problem consist of 20 features with 32,950 instances 
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 

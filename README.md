@@ -134,3 +134,9 @@ Finally the scheduled run
 The Recording and details can be viewed here [link to Udacity Project 2 Recording].
 
 [link to Udacity Project 2 Recording]: https://youtu.be/Ajm_u9C-blc
+
+## Standout Suggestions
+
+1. Addition of model stacking and blending techniques in AutoML will be a very valuable addition. As this will provide independence in stacking or blending top performing models to further improve the mertics
+2. Option to select/create multi layer deeplearning model or even pre-trained model to be utilized (transfer learning techniques) will be of great use here.
+3. Custom imputations to fill missing values based on data to data scenario would be a game changer i.e. Imputations that fill missing values based on feature importance, correlations and other statistcal knowledge will enhance model performance surprisingly.
